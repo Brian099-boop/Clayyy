@@ -6,8 +6,8 @@ const Header = () => {
     <header className="bg-black text-white py-6 fixed top-0 left-0 w-full z-50 shadow-lg">
       <nav className="container mx-auto flex items-center justify-between px-6">
         {/* Branding or Logo */}
-        <div className="text-4xl font-extrabold ml-5 text-red-500">
-          Sapatos<span className="text-white">Store</span>
+        <div className="text-4xl font-extrabold ml-5 text-red-700">
+          Movie<span className="text-white">Flix</span>
         </div>
 
         {/* Navigation Links Centered */}
@@ -22,13 +22,7 @@ const Header = () => {
             to="/shop"
             className="hover:text-red-500 transition-all duration-300 font-semibold uppercase"
           >
-            Shop
-          </Link>
-          <Link
-            to="/blog"
-            className="hover:text-red-500 transition-all duration-300 font-semibold uppercase"
-          >
-            Blog
+            Recently Visited
           </Link>
           <Link
             to="/contact"
